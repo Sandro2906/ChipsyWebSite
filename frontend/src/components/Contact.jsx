@@ -24,7 +24,7 @@ const dataLogo = [
 
 const Contact = () => {
   return (
-    <div className='w-full h-auto bg-yellow-600 px-20 md:py-5 flex flex-col py-3 md:flex-row justify-between'>
+    <div className='w-full h-auto bg-yellow-600 px-20 md:py-5 flex flex-col py-3 md:flex-row justify-between z-10'>
     <h1 className='text-7xl w-[250px] text-center font-fontNavBar font-extrabold shadowText text-blue-900 -rotate-3'>Nađi nas i na:</h1>
     
     <div className='flex items-center justify-center'>
