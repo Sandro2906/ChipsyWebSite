@@ -9,7 +9,7 @@ const AboutMain = () => {
     Aos.init({duration: 1500})
   },[])
   return (
-    <div className='w-full h-auto flex md:flex-row flex-col z-10'>
+    <div className='w-full h-auto flex md:flex-row flex-col z-20'>
         <div data-aos="fade-right" className='md:w-2/4 w-full h-auto flex items-center justify-center'>
             <img src={ChipsyHome} alt='Mainimg' className='w-full h-full object-cover'/>
         </div>
