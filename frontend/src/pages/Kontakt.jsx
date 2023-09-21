@@ -32,7 +32,7 @@ const Kontakt = () => {
         <button className='w-[170px] h-[70px] rounded-full bg-red-900 text-2xl mx-auto font-extrabold text-white'>SUBMIT</button>
         </div>
         </form>
-        <img src={tanjir} alt='BG' className='w-full h-full object-cover blur absolute p-20'/>
+        <img src={tanjir} alt='BG' className='w-full h-[500px] object-cover blur absolute p-20'/>
         </div>
         <Contact />
     </div>
