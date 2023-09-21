@@ -9,7 +9,7 @@ const Kontakt = () => {
     <NavBar />
     <div className='w-full h-auto py-14 md:px-20 px-7 flex justify-center items-center font-fontNavBar  flex-col bg-yellow-400'>
   
-    <h1 className='text-5xl font-fontNavBar text-center font-extrabold border-b-4 pb-3 border-red-900 w-[300px]'>Kontakt</h1>
+    <h1 className='text-5xl font-fontNavBar text-center font-extrabold border-b-4 pb-3 border-red-900 z-10 w-[300px]'>Kontakt</h1>
     <div className='w-full h-auto flex justify-center items-center py-10'>
         <form className='md:w-3/4 w-ful h-auto bg-yellow-500 p-10 z-10 rounded-lg'>
         <div className='flex justify-between items-center flex-col md:flex-row py-14'>
