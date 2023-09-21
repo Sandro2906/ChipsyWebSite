@@ -13,13 +13,13 @@ const Kontakt = () => {
     <div className='w-full h-auto flex justify-center items-center py-10'>
         <form className='md:w-3/4 w-ful h-auto bg-yellow-500 p-10 z-10 rounded-lg'>
         <div className='flex justify-between items-center flex-col lg:flex-row py-14'>
-            <div className='flex flex-col pb-10 md:pb-0'>
+            <div className='flex flex-col px-4 pb-10 md:pb-0'>
             <label className='text-4xl pb-3'>Name</label>
-            <input placeholder='Name' type='text'  className='w-[400px] p-4 rounded-md'/>
+            <input placeholder='Name' type='text'  className='w-full p-4 rounded-md'/>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col px-4'>
             <label className='text-4xl pb-3'>Email</label>
-            <input placeholder='Email' type='text' className='w-[400px] p-4 rounded-md'/>
+            <input placeholder='Email' type='text' className='w-full p-4 rounded-md'/>
             </div>
         </div>
         <div className='felx flex-col'>
