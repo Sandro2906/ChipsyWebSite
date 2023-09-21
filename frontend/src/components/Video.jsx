@@ -31,7 +31,7 @@ const Video = () => {
 
   return (
     
-    <Carousel className="w-full h-auto z-20 mx-auto md:px-20 px-7" responsive={responsive}>
+    <Carousel className="w-full h-auto z-20 mx-auto md:px-20 px-7 flex justify-center items-center" responsive={responsive}>
       <iframe data-aos="zoom-in" className='md:w-full md:h-[400px] w-[350px] h-[180px] lg:h-[720px] lg:w-[1280px] z-20 object-cover' src="https://www.youtube.com/embed/kp9ptrS-e-A?si=M4cxXjdRnzCwVq1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <iframe className='md:w-full md:h-[400px] w-[350px] h-[180px] z-20 lg:h-[720px] lg:w-[1280px]'  src="https://www.youtube.com/embed/IshAX7Yj1Us?si=AxCo5ghvn43YLFLG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <iframe className='md:w-full md:h-[400px] w-[350px] h-[180px] z-20 lg:h-[720px] lg:w-[1280px]'  src="https://www.youtube.com/embed/3FsXmX93wGk?si=YZjebvmG94UCe6Ly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
