@@ -31,7 +31,7 @@ const Contact = () => {
     {dataLogo.map(({picture, id, link,style})=>(
         <a href={link} className={`${style} pt-10 md:pt-0`}>
         <div key={id} className='w-[100px] h-[100px] hover:w-[120px] hover:duration-100 hover:h-[120px] flex justify-center items-center border-2 border-white  rounded-full overflow-hidden p-1'>
-            <img src={picture} alt='SocMed' className='w-full h-full object-cover rounded-full to-transparent ' />
+            <img src={picture} alt='SocMed' className='w-full h-[600px] object-cover rounded-full to-transparent ' />
         </div>
         </a>
     ))}
