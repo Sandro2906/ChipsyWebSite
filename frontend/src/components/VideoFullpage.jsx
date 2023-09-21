@@ -4,7 +4,7 @@ import Video from '../components/Video'
 
 const VideoFullpage = () => {
   return (
-    <div className='w-full h-auto my-auto mx-auto flex justify-center items-center overflow-hidden px-10 py-10'>
+    <div className='md:w-[700px] md:h-[700px] my-auto mx-auto flex justify-center items-center overflow-hidden '>
         <Video className="z-20" />
     </div>
   )
