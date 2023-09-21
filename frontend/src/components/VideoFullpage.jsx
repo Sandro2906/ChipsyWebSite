@@ -6,6 +6,7 @@ const VideoFullpage = () => {
   return (
     <div className='w-full h-auto my-auto mx-auto flex justify-center items-center md:py-14 overflow-hidden bg-yellowLogo'>
         <Video className="z-20" />
+      <img src={tanjir} alt='BG' className='w-full h-full object-cover blur absolute p-20'/>
     </div>
   )
 }
