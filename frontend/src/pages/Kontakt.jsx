@@ -15,11 +15,11 @@ const Kontakt = () => {
         <div className='flex justify-between items-center flex-col lg:flex-row py-14'>
             <div className='flex flex-col px-4 pb-10 md:pb-0'>
             <label className='text-4xl pb-3'>Name</label>
-            <input placeholder='Name' type='text'  className='w-full p-4 rounded-md'/>
+            <input placeholder='Name' type='text'  className='max-w-[600px] p-4 rounded-md'/>
             </div>
             <div className='flex flex-col px-4'>
             <label className='text-4xl pb-3'>Email</label>
-            <input placeholder='Email' type='text' className='w-full p-4 rounded-md'/>
+            <input placeholder='Email' type='text' className='max-w-[600px] p-4 rounded-md'/>
             </div>
         </div>
         <div className='felx flex-col'>
