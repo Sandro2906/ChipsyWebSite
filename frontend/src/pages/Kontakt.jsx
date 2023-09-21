@@ -11,7 +11,7 @@ const Kontakt = () => {
   
     <h1 className='text-5xl font-fontNavBar text-center font-extrabold border-b-4 pb-3 border-red-900 w-[300px]'>Kontakt</h1>
     <div className='w-full h-auto flex justify-center items-center py-10'>
-        <form className='md:w-3/4 w-ful h-auto bg-yellow-500 p-10 z-10 rounded-lg'>
+        <form className='md:w-3/4 w-full h-auto bg-yellow-500 p-10 z-10 rounded-lg'>
         <div className='flex justify-between items-center flex-col lg:flex-row py-14'>
             <div className='flex flex-col px-4 pb-10 md:pb-0'>
             <label className='text-4xl pb-3'>Name</label>
